@@ -8,7 +8,7 @@ class ChildA extends Component {
     }
 
     handleClick() {
-        this.props.changeMessage();
+        this.props.changeMessage({ msg: 'Goodbye' });
     }
 
     render() {

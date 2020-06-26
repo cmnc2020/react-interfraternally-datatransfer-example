@@ -12,8 +12,8 @@ class Parent extends React.Component {
         this.changeMessage = this.changeMessage.bind(this);
     }
 
-    changeMessage() {
-        this.setState({ msg: 'Goodbye' });
+    changeMessage(json) {
+        this.setState(json);
     }
 
     render() {
